@@ -1,5 +1,6 @@
 # espidf_softuart
-Thư viện uart mềm cho espidf
+Thư viện uart mềm cho espidf.
+
 Hỗ trợ truyền song công nhiều uart mềm, hoạt động tốt nhất ở tốc độ 9600
 
 # Sử dụng
