@@ -14,10 +14,6 @@ if BR=9600 then 0.2*(1/9600)=20.8333333 uS
 
 Ví dụ khởi tạo timer
 ```
-void IRAM_ATTR timer_group_isr_callback(void)
-{
-    SoftUartHandler();
-}
 //timer 21 us
 timer_config_t config = {
         .divider = 80,
